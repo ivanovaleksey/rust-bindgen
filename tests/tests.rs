@@ -44,6 +44,7 @@ The latest `rustfmt` is required to run the `bindgen` test suite. Install
             "run",
             "nightly",
             "rustfmt",
+            "--unstable-features",
             "--config-path",
             concat!(env!("CARGO_MANIFEST_DIR"), "/tests/rustfmt.toml")
         ])
